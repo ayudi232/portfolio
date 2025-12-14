@@ -1,0 +1,135 @@
+
+*{
+    margin: 0px !important;
+}
+body{
+    width: 100%;
+    overflow-x: hidden !important;
+
+}
+nav{
+    background-color:  #121212;
+    border-bottom:2px solid #333333;
+}
+.nav-link{
+    color: #EAEAEA !important;
+}
+.nav-link:hover{
+    color: chocolate !important;
+}
+#logo{
+    color: rgb(255, 108, 108);
+    font-family: italic;
+    font-weight: bold;
+    font-style: oblique;
+}
+#logo:hover{
+    color: antiquewhite;
+}
+#home h1{
+    color:antiquewhite;
+    /* background-color: antiquewhite; */
+    -webkit-transform: rotateX('90deg');
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home{
+    background-image: url(/ima/240_F_386832865_KzXYSvOLzUhztbeVD5d6pi2MBMqwBGAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0px;
+    }
+    @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+.slide{
+    animation: slide 5s linear infinite;
+}
+.high-text{
+    display: block !important;
+}
+#about{
+    height: 100vh;
+    width: 100vh;
+    background-color: #2C2C2C;
+}
+#about h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+    font-weight: bold;
+}
+#about p{
+    color: #EAEAEA;
+}
+#img-1{
+    border-radius: 50%;
+    border: 2px solid chocolate !important;
+}
+#project{
+    background-color:#1A1A1A;
+    /* height: 100vh !important; */
+}
+.col{
+    /* background-color: #2C2C2C;/ */
+    /* height: 100vh !important; */
+}
+.card-title{
+    color: #565555 !important;
+
+}
+.card-text{
+    color: #757575 !important;
+}
+#img-proj{
+    height: 350px !important;
+}
+#contact{
+    /* background-image: url(./ima/240_F_386832865_KzXYSvOLzUhztbeVD5d6pi2MBMqwBGAL.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color:  #2C2C2C;
+    height: 100vh;
+    margin-right: 0;
+    margin-left: 0px;
+}
+@media (max-width:768px) {
+   #img-1{
+   display: none;
+   } 
+   .slide{
+    animation: none;
+   }
+   #contact{
+    justify-content: flex-start;
+    align-items: normal;
+   }
+}
+#contact a{
+    color: #d3f8f5;
+}
+#contact h1{
+    color: rgb(210, 173, 147);
+    text-decoration: underline !important;
+}
+i:hover{
+    color:rgb(228, 211, 221) !important;
+}
+#contact a:visited{
+    color: red;
+}
+#contact a:hover{
+    color:rgb(51, 243, 26);
+}
+.bi-telephone-inbound{
+    color: rgb(74, 227, 74);
+}

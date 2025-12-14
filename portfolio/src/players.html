@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players Data</title>
+    <style>
+        body{
+            background-color: #acacab;
+        }
+        h1{
+            text-align: center;
+        }
+        .para-div{
+            display: flex;
+            justify-content: space-around;
+        }
+        .team-div{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        #player-display{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 24px;
+            
+        }
+        .player-card{
+            background-color:rgb(38, 38, 65);
+            text-align: center;
+            border-radius: 20px;
+            color:white;
+            width: 32%;
+        }
+    </style>
+</head>
+<body>
+   <h1>Team status</h1>
+<div class="rapper"> 
+    <div class="para-div">
+    <p>Team;  <span id="team-name"></span></p>
+    <p>Year; <span id="year"></span></p>
+    <p>Head coach; <span id="coach"></span></p>
+    </div>
+    <div class="team-div">
+         <label for="team-mates">Filter Teammates;</label>
+         <select name="" id="team-mates">
+         <option value="all players" selected>All players</option>
+         <option value="position Forward">Position Forward</option>
+         <option value="position Midfielder">Position Midfielder</option>
+         <option value="position Defender">Position Defender</option>
+         <option value="position goalkeeper">Position Goalkeeper</option>
+         </select>
+    </div>
+     <div id="player-display"></div>
+ </div>
+
+   
+
+    <script src="players.js"></script>
+</body>
+</html>

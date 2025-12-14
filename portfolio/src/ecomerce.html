@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ecomerce.css">
+</head>
+<body>
+    <div class="navbar">
+       <a href="ecomerce.html">
+         <div class="logo">Clothing store</div>
+       </a>
+       <div class="search">
+             <input onkeyup="searchItems()" type="text" placeholder="search..." id="searchInput">
+            <!-- <img src="" alt=""> -->
+             <i class="bi bi-search"></i>
+       </div>
+     <a href="cart.html">
+     <div class="cart">
+            <i class="bi bi-cart2"></i>
+            <div class="cartAmount" id="cartAmount">0</div>
+        </div>
+     </a>
+    </div>
+   <div class="shop" id="shop">
+   <img src="" alt="">
+   </div>
+
+</body>
+   <script src="data.js"></script>
+   <script src="script.js" defer></script>
+</html>
